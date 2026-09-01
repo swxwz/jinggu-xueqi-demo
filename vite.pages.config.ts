@@ -4,11 +4,13 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   root: 'pages',
+  publicDir: '../public',
   base: './',
   css: { postcss: { plugins: [tailwindcss()] } },
   plugins: [react()],
   build: {
     outDir: '../pages-dist',
     emptyOutDir: true,
+    assetsDir: '.',
   },
 });
