@@ -1,75 +1,117 @@
-# 《烬骨录》快速阅读与情绪叙事改版研究底稿
+# 《青岚问仙：藏锋》改版研究底稿
 
-受众：习惯在手机或网页上快速扫读的中文网文、视觉小说与互动小说玩家  
-日期：2026-09-01  
-用途：指导试玩版改稿与界面实现；不是对任何在世作者的模仿提示词。
+受众：习惯手机快速扫读、偏好小人物成长与轻选择的中文网文/互动小说玩家
 
-## 范围与假设
+日期：2026-09-02
 
-- 决策问题：怎样在保留强制主线与多结局的前提下，降低人物记忆负担、提高扫读效率，让选择更有爽感并留下情绪余韵。
-- 假设：玩家主要使用中文界面，单局目标约 18–25 分钟；五位成年关键女性角色保留，但同一场景只突出 1–3 位。
-- 排除：不比较网文作者个人风格，不复制特定作者的句法、措辞或标志性段落；不加入露骨性描写。
-- 来源优先级：认知与叙事一手研究、W3C 官方可读性指导、互动叙事实验论文、Creative Commons 与素材原始授权页。
+用途：指导试玩版剧情、人物、标点、音乐与界面实现；不是对任何在世作者的模仿提示词
 
-## 直接结论
+## 研究问题与边界
 
-本次改版采用“一个情绪主轴、身份标签先于姓名、短段信息前置、选择后立即兑现、爽点后保留代价”的结构。五位角色都与“姐姐六年前失踪”这一件旧案相连，避免读者同时维护五套互不相关的背景。每个选择进入下一幕后先显示一条具体后果，随后用更长的场景发展证明关系、处境或风险确实发生了变化。
+- 怎样让主角有真实成长和受苦，又不陷入连续压抑或养成系统
+- 怎样只在关键处使用“扮猪吃老虎”，让反转合理而不重复
+- 怎样把四位成年女性写得好看、好记、有欲感，同时保留各自目标和剧情作用
+- 怎样把文字改成手机上可以一目十行的短段，又不变成提纲式碎句
+- 论坛/书友讨论只用于发现偏好和反例，不作为总体读者的统计代表
+- 不复制特定作者的句法、措辞、桥段或标志性段落；只采用可泛化的类型技巧
+- 成人张力限定在成年角色之间，以距离、触碰、衣料、呼吸与未说破的停顿呈现，不写露骨性行为
+
+## 收敛结论
+
+新版采用“65% 成长推进 + 15% 真实受苦 + 10% 关系升温 + 10% 藏锋兑现”的大致配比。藏锋只在验灵与外门大比两处承担主要爽点；登山、罚工、雪地受伤都是真正的能力不足，帮助来自不同女性角色，但最后一步由主角自己完成。
+
+女主不靠连续堆叠五官形容词。每人固定一个视觉/动作标签、一种说话方式、一项独立目标和一种帮助主角成长的能力。前半程每幕只引入或突出一人，直到终局前才让四人同场。
+
+正文多数段落只承载一个动作、信息或情绪。短段末尾可省去句号，对白和多句段落仍保留必要标点；这是一项产品语气选择，不宣称“没有句号就更像真人”。
 
 ## 证据与落地
 
-### 1. 人名不是越少越好，关键是减少同时竞争的心理表征
+### 1. 女主吸引力来自渐进关系、反差和持续的剧情作用
 
-Gernsbacher 等人的三组实验显示，主角被再次提及时，读者对该角色的访问更快、更准确；引入新角色则会削弱旧角色的可及性。这支持“角色首次出现用姓名＋身份，后续重复稳定身份称谓；单幕限制焦点角色”的做法。[Managing Mental Representations During Narrative Comprehension](https://pmc.ncbi.nlm.nih.gov/articles/PMC4266406/)
+PTT CFantasy 的求书讨论中，长期读者明确赞赏“外冷内热”“偶尔吃醋或嘴硬的反差”以及感情随剧情慢慢建立；同一讨论也批评女角在后期戏份骤减、变成 NPC。它是书友偏好样本，不代表所有读者，但与本次产品方向高度相关。[PTT：感情描写较多的求书讨论](https://www.ptt.cc/bbs/CFantasy/M.1636351253.A.37C.html)
 
-落地：正文主要使用“剑首、丹师、知客、执律使、魔君”；界面的“本幕只需记住”条固定重复姓名与身份；前半程每条路线只深写一位核心同伴。
+湖南日报对网络文学研究者许苗苗的专访指出，当下女性故事已从单一言情扩展到事业和多题材；令人耳目一新的女性角色不一定依赖陌生设定，而可在熟悉类型中做出新变化。文字小说也能用细节和心理慢慢铺陈层次。[网文江湖里，她在如何写她的故事](https://hnrb.hunantoday.cn/hnrb_epaper/images/2025-07/08/07/2025070807_pdf.pdf)
 
-### 2. 扫读需要短块、信息前置与合适行宽
+落地：
 
-W3C 认知无障碍指导建议每段只承载一个主题，把段落目的放在开头，使用短句与短文本块。[Keep Text Succinct](https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p05-succinct-text/) W3C 的视觉呈现说明还指出，CJK 文本每行不宜超过约 40 个字形，较窄文本块和更充分的行间、段间空间有助于读者不丢失阅读位置。[Understanding SC 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
+- 裴照雪：青衣、握腕教剑、寡言；目标是废除吃人的旧试炼
+- 洛青禾：杏衣、笑着下重手治伤、轻声打趣；目标是不拿活人试药的新方
+- 商绯月：绯伞、金铃、把关系说成买卖；目标是找回归潮镜
+- 云知意：银簪、改阵图、说话直接；目标是写出新的试炼章
+- 四人分别提供剑、药、资源和阵法，不只提供爱情反馈
 
-落地：正文由长段改成多数 1–2 句的短段；冲突、结果或动作放在段首；正文栏宽缩至约 700px，正文改为屏幕更易扫读的无衬线字体，标题保留宋体气质。
+### 2. 网文主角需要“肉眼可见”的成长，但配角不能只做工具人
 
-### 3. 选择的爽感来自“可预见的差异＋看得见的后果”
+扬州大学相关论文总结，网络小说绝对主角通常需要直观成长，将能力提升与地位/获得感结合；“本来—但是”结构能提供低起点和加速成长的合理性，但若只有身份逆转就容易套路化，必须同时写心理落差、冲突和成熟过程。论文还强调识别性可由外貌标志、习惯标志和性格逻辑逐层建立，并批评只剩路人 NPC、缺乏生动配角的写法。[网络小说人物塑造研究 PDF](https://wxy.yzu.edu.cn/__local/5/F9/02/27FCB2057D079135EA16E6B8E1A_39F674A4_1ECA1A.pdf)
 
-Cardona-Rivera 等人让 88 名参与者体验选择式故事，发现当选项被理解为会导向不同情境内容时，参与者报告更高的能动感。论文也指出，即时确认选择的反馈可能改变玩家对后续影响的判断。[Foreseeing Meaningful Choices](https://ojs.aaai.org/index.php/AIIDE/article/view/12716)
+落地：主角的“本来”是能听见灵息，“但是”是身体弱、没有修为、无法把听见的答案变成动作。成长台阶被写成第一口灵息、药养经脉、雪地学阵、练成一剑；每次都由可见代价换来，不凭空升级。
 
-落地：选项不再只是不同语气，而是明确对应“公开真相、留下底牌、共同担责”等不同处境；点击后，下一幕先出现一条选择后果，再由正文继续兑现；分支可以在中后段收束，但人物关系、证据来源和结局入口保持差异。
+### 3. “扮猪吃老虎”要让读者先知道、对手后知道，并且必须有藏拙理由
 
-### 4. 共鸣不等于连续煽情；温暖与失落可以同时存在
+起点社区的创作讨论把这一桥段拆为四个条件：主角被低估、被轻视、会爆发，以及读者预先知道底牌；讨论尤其强调藏拙要有理由，并通过“暴露又未完全暴露”维持预期。这是创作社区经验，不是实验结论。[起点社区：如何写好扮猪吃虎](https://www.qidianclub.com/threads/247/)
 
-一项关于长篇串流剧的横断面研究发现，角色认同与故事沉浸有关，沉浸又与“温暖和悲伤并存”的苦甜情绪及关系价值反思相关。该研究不能证明因果，但能支持把牺牲、照顾、亏欠和迟到的补偿放在同一情节中的设计判断。[Bittersweet emotion and narrative transportation](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1815433/full)
+中国作家网的年度观察把这类模式概括为“抑—扬”和情绪释放，并指出关键在正确的时间、节奏和方式上兑现。[2020 年网络小说管窥](https://www.chinawriter.com.cn/n1/2021/0219/c404027-32031658.html)
 
-落地：姐姐的遗言不是要求主角复仇，而是“别只救我”；每位核心角色都承担一项六年前没完成的责任；胜利后仍需面对补偿、信任和权力的新代价。
+落地：主角藏拙的理由来自阿婆的现实告诫和自身无力自保，而非故意受辱；第一次验灵只让读者和裴照雪看见收手，第二次大比在真实落后一层的情况下用半年所学赢一招。其余场景不反复打脸。
 
-### 5. 音乐用于承接情绪，不代替情节
+### 4. 真实受苦要转化为下一次能用上的能力
 
-数字互动叙事研究综述将戏剧问题、情绪内容以及用声音和音乐辅助情节列为常见构成，同时强调选择应放在具体而有意义的节点。[History education done different](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2022.942834/full)
+“本来—但是”研究提醒，逆境的价值在于展示心理落差并使人物成熟，而不是只把身份从低位翻到高位。新版因此把受苦限定为三个有后果的节点：登山磨破手学会吐纳、百草堂罚工建立洛青禾关系、雪地重伤承认“听见不等于做到”。每个节点随后都在大比或破阵中兑现，避免无意义虐主。
 
-素材选用 Tozan 的 `Asianoriental2`。OpenGameArt 原始条目将其标为 CC0，并提供 OGG 文件。[Asianoriental2](https://opengameart.org/content/asianoriental2) Creative Commons 的 CC0 说明允许复制、修改、分发和表演，包括商业用途，且无需另行申请；同时明确不提供权利状态担保。[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+### 5. 手机阅读适合短段、直接对白和清晰信息前置
 
-落地：音乐随项目本地分发，不依赖外链；首次点击“踏入山门”后播放，默认低音量，可随时关闭；页面仍保留自愿署名链接。
+《文艺报》关于移动网络文学的文章指出，小屏幕推动了更简洁的文字、更短段落、更快节奏、更简明描写和更直接对白。[移动阅读与网络文学 PDF](https://wyb.chinawriter.com.cn/attachment/202003/20/fa5d11e1-264d-4ce5-b968-66b3d2ce4e62.pdf)
+
+W3C 认知无障碍指导建议每段只承载一个主题，并把目的放在开头；视觉呈现说明还指出，CJK 文本行宽不宜超过约 40 个字形，充分的行距和段距有助于读者不丢失位置。[Keep Text Succinct](https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p05-succinct-text/) [Understanding SC 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation)
+
+落地：正文栏约 680px；冲突、动作或结果置于段首；多数段落 1–2 句；短段末尾可省句号，但引号、问号、内部句号继续正常使用，避免全篇变成机械短视频字幕。
+
+### 6. 角色数量通过重复身份和分幕引入控制
+
+Gernsbacher 等人的实验显示，引入新角色会暂时削弱旧角色的可及性，重复提及可恢复访问速度。[Managing Mental Representations During Narrative Comprehension](https://pmc.ncbi.nlm.nih.gov/articles/PMC4266406/)
+
+落地：女性角色从五位减为四位；前半程依次引入，每幕顶部重复“身份 + 姓名”，正文继续使用稳定身份词；四人同场只发生在玩家已分别经历过她们的个人场景之后。
+
+### 7. 选择应轻，但后果要马上可见
+
+Cardona-Rivera 等人的互动叙事实验发现，当玩家预期选项会带来不同情境内容时，报告的能动感更高；即时确认也会影响对选择意义的判断。[Foreseeing Meaningful Choices](https://ojs.aaai.org/index.php/AIIDE/article/view/12716)
+
+落地：前九幕多数只有两个白话选项，且都推动主线；下一幕顶部立即显示一条具体后果。最终只让玩家选择“留下、同行、回村”，不要求计算数值或猜作者答案。
+
+### 8. 音乐换成明亮、平静的东方探索短曲
+
+OpenGameArt 原始条目将 Le Mandrill 的 `Village In The Air` 标注为 RPG / flute / village，并采用 CC0。[Village In The Air 原始素材页](https://opengameart.org/content/%C3%AEle-flotante-village-in-the-air) Creative Commons 说明 CC0 允许复制、修改和分发，包括商业用途；同时不对具体作品的权利状态提供担保。[CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+
+落地：下载原始 WAV 后转为 OGG，随站点本地分发；默认低音量、手动开关，并保留自愿署名链接。新曲替换旧版偏阴暗的音乐，不再使用血腥/祭祀氛围。
 
 ## 证据缺口矩阵
 
-| 关键判断 | 支持证据 | 置信度 | 限制/矛盾 | 处理方式 |
+| 关键判断 | 支持证据 | 置信度 | 限制/矛盾 | 本版处理 |
 | --- | --- | --- | --- | --- |
-| 新角色会干扰旧角色记忆 | 角色心理表征实验 | 高 | 实验材料不是中文网文 | 采用语言无关的稳定称谓与重复提示，不宣称具体最优人数 |
-| 短句短段提高快速理解 | W3C 官方认知无障碍指导 | 高 | 指导面向可访问性，不直接测“爽文” | 只用于版式和信息组织，不推导文学质量 |
-| 情境差异增强选择能动感 | 88 人互动故事实验 | 中高 | 样本与游戏类型有限 | 让分支改变证据、关系与风险，不用分支数量代替差异 |
-| 苦甜混合提高余韵 | 300 人横断面剧集研究 | 中 | 相关不能证明因果，且为韩剧观众 | 作为叙事设计启发，不写成确定心理定律 |
-| 选定音乐可分发 | 原始素材页＋CC0 官方说明 | 高 | CC 不为具体作品权利状态担保 | 保留来源、作者与许可记录，并在页面署名 |
+| 渐进感情、反差和持续戏份更受欢迎 | PTT 书友讨论 + 研究者访谈 | 中 | 论坛是自选样本，不能代表全部读者 | 作为方向性偏好，不写成普遍规律 |
+| 主角需可见成长、配角需识别性 | 网络文学研究论文 | 中高 | 属于批评性归纳，不是用户实验 | 用于结构检查，不套用具体作品表达 |
+| 藏锋需要理由、信息差与节奏 | 创作社区 + 中国作家网观察 | 中 | 多为行业经验和评论 | 只保留两次兑现，避免机械重复 |
+| 短段适合手机扫读 | 文艺报 + W3C | 高（可读性） | 不直接证明“更爽” | 只推导版式与信息组织 |
+| 省略短段末句号更像真人 | 无可靠直接证据 | 低 | 主要是用户审美偏好 | 有节制采用，保留必要标点 |
+| 新角色会干扰旧角色记忆 | 角色心理表征实验 | 高 | 实验材料不是中文网文 | 采用渐进引入与身份重复，不宣称最优人数 |
+| 情境差异增强选择能动感 | 88 人互动故事实验 | 中高 | 样本和题材有限 | 用即时后果和关系差异体现选择 |
+| 音乐可合法本地分发 | 原始素材页 + CC0 官方说明 | 高 | CC 不替具体作品做权利担保 | 保留来源、许可和本地素材记录 |
 
 ## 停止条件与验证
 
-高影响判断已有一手或官方来源；音乐许可已由素材原页和 CC 官方条款交叉核验；继续搜索较难改变当前改稿决策，因此停止扩展检索。交付验证重点转为 TypeScript/ESLint、Vinext 构建、Vite 静态构建、音频是否复制到产物、GitHub Pages 相对路径是否正确。
+高影响结构判断已有研究/行业来源，论坛偏好已明确标注为轶事证据，音乐许可由原始条目和 CC 官方说明交叉核验。继续扩大搜索不太可能改变本轮产品决策，研究阶段停止；后续验证转为 TypeScript/ESLint、Vinext 构建、Vite 静态构建、音频产物、选择回退、多结局解锁和两种发布渠道。
 
 ## 来源台账
 
-- Gernsbacher, M. A., et al. “Managing Mental Representations During Narrative Comprehension.” 2004. PMC. https://pmc.ncbi.nlm.nih.gov/articles/PMC4266406/
-- W3C WAI. “Cognitive Accessibility Design Pattern: Keep Text Succinct.” 2021/2022. https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p05-succinct-text/
-- W3C WAI. “Understanding Success Criterion 1.4.8: Visual Presentation.” accessed 2026-09-01. https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation
-- Cardona-Rivera, R., et al. “Foreseeing Meaningful Choices.” AIIDE, 2014-10-08. https://doi.org/10.1609/aiide.v10i1.12716
-- Petousi, D., et al. “History education done different.” Frontiers in Education, 2022. https://doi.org/10.3389/feduc.2022.942834
-- “Bittersweet emotion and narrative transportation in streaming drama.” Frontiers in Psychology, 2026. https://doi.org/10.3389/fpsyg.2026.1815433
-- Tozan. “Asianoriental2.” OpenGameArt, 2015-09-07. https://opengameart.org/content/asianoriental2
+- PTT CFantasy. “求書：男女主间感情描写比较多的书.” 2021-11-08. https://www.ptt.cc/bbs/CFantasy/M.1636351253.A.37C.html
+- 湖南日报. “网文江湖里，她在如何写她的故事——专访许苗苗.” 2025-07-08. https://hnrb.hunantoday.cn/hnrb_epaper/images/2025-07/08/07/2025070807_pdf.pdf
+- 青年批评家论坛/《评论》. 网络小说人物塑造专题 PDF. 2018. https://wxy.yzu.edu.cn/__local/5/F9/02/27FCB2057D079135EA16E6B8E1A_39F674A4_1ECA1A.pdf
+- 起点社区. “如何写好扮猪吃虎.” 2022-09-17. https://www.qidianclub.com/threads/247/
+- 中国作家网. “2020 年网络小说管窥.” 2021-02-19. https://www.chinawriter.com.cn/n1/2021/0219/c404027-32031658.html
+- 文艺报. 移动阅读与网络文学专题 PDF. 2020-03-20. https://wyb.chinawriter.com.cn/attachment/202003/20/fa5d11e1-264d-4ce5-b968-66b3d2ce4e62.pdf
+- Gernsbacher, M. A., et al. “Managing Mental Representations During Narrative Comprehension.” https://pmc.ncbi.nlm.nih.gov/articles/PMC4266406/
+- W3C WAI. “Keep Text Succinct.” https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p05-succinct-text/
+- W3C WAI. “Understanding Success Criterion 1.4.8.” https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation
+- Cardona-Rivera, R., et al. “Foreseeing Meaningful Choices.” AIIDE, 2014. https://doi.org/10.1609/aiide.v10i1.12716
+- Le Mandrill. “Île Flotante / Village In The Air.” OpenGameArt, 2018-02-11. https://opengameart.org/content/%C3%AEle-flotante-village-in-the-air
 - Creative Commons. “CC0 1.0 Universal.” https://creativecommons.org/publicdomain/zero/1.0/
