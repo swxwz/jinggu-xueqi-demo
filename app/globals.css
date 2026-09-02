@@ -147,10 +147,10 @@ button:focus-visible { outline: 2px solid var(--jade); outline-offset: 3px; }
 .prose p { margin: 0 0 14px; color: #30483f; font-size: clamp(15px, 1.32vw, 18px); line-height: 1.92; letter-spacing: .01em; }
 .prose p:nth-child(4n + 1) { margin-top: 5px; }
 
-.choice-echo { position: relative; display: grid; gap: 7px; margin: -8px 0 27px; padding: 14px 16px 14px 19px; overflow: hidden; border: 1px solid rgba(43, 126, 105, .18); background: linear-gradient(90deg, rgba(64, 143, 118, .1), rgba(255,255,255,.4)); animation: echo-enter .46s ease both; }
+.choice-echo { position: relative; display: grid; gap: 9px; margin: -6px 0 31px; padding: 18px 20px 19px 23px; overflow: hidden; border: 1px solid rgba(43, 126, 105, .22); background: linear-gradient(90deg, rgba(64, 143, 118, .12), rgba(255,255,255,.46)); animation: echo-enter .46s ease both; }
 .choice-echo::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 2px; background: var(--jade); box-shadow: 0 0 16px rgba(49, 132, 106, .25); }
-.choice-echo small { color: #7a8c84; font-size: 8px; letter-spacing: .13em; }
-.choice-echo strong { color: #35544a; font-size: 12px; font-weight: 500; line-height: 1.7; }
+.choice-echo small { color: #71857c; font-size: 11px; font-weight: 600; letter-spacing: .13em; }
+.choice-echo strong { color: #294e42; font-size: clamp(16px, 1.35vw, 19px); font-weight: 600; line-height: 1.8; }
 @keyframes echo-enter { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
 
 .choices { display: grid; gap: 9px; margin-top: 31px; }
