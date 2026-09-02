@@ -10,6 +10,7 @@
     "build": "vinext build",
     "build:pages": "vite build --config vite.pages.config.ts",
     "build:pages:inline": "npm run build:pages && node scripts/build-pages-inline.mjs",
+    "validate:story": "node scripts/validate-story.mjs",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern pages-dist --ignore-pattern pages-inline"
   },
