@@ -35,7 +35,7 @@ export type ChoiceCheckpoint<TState> = {
 };
 
 export type StorySave<TState> = {
-  version: '1.1' | '1.2';
+  version: '1.1' | '1.2' | '1.3';
   updatedAt: string;
   currentSceneId: string;
   currentState: TState;
@@ -60,7 +60,7 @@ export function readStorySave<TState>(): ReadResult<TState> {
     const raw = window.localStorage.getItem(AUTO_SAVE_KEY);
     if (!raw) return { available: true, save: null };
     const value = JSON.parse(raw) as StorySave<TState>;
-    if (!['1.1', '1.2'].includes(value.version) || !value.currentSceneId || !value.settings) {
+    if (!['1.1', '1.2', '1.3'].includes(value.version) || !value.currentSceneId || !value.settings) {
       return { available: true, save: null };
     }
     return { available: true, save: value };

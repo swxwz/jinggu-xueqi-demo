@@ -73,11 +73,11 @@ if (!saveSource.includes('window.localStorage.setItem') || !saveSource.includes(
 for (const eventName of ['visibilitychange', 'pagehide']) {
   if (!source.includes(eventName)) fail(`离开页面存档事件缺失：${eventName}`);
 }
-for (const track of ['audio/oriental-dawn.ogg', 'audio/mystery-trace.mp3', 'audio/warm-fire.ogg']) {
+for (const track of ['audio/morning-hills.ogg', 'audio/mystery-trace.mp3', 'audio/warm-fire.ogg']) {
   if (!source.includes(track)) fail(`背景音乐资源引用缺失：${track}`);
   if (!fs.existsSync(path.join(root, 'public', track))) fail(`背景音乐文件缺失：${track}`);
 }
-for (const uiText of ['继续上次阅读', '已走节点', '回到关键节点', '阅读设置', '故事版本 1.2']) {
+for (const uiText of ['继续上次阅读', '已走节点', '回到关键节点', '阅读设置', '故事版本 1.3']) {
   if (!source.includes(uiText)) fail(`产品体验入口缺失：${uiText}`);
 }
 if (!source.includes('aria-live="polite"') || !source.includes('resultRef')) fail('选择结果无障碍反馈缺失');
