@@ -18,7 +18,7 @@
 
 ## 收敛结论
 
-新版采用“55% 成长推进 + 15% 真实受苦 + 20% 关系递进 + 10% 藏锋兑现”的大致配比。藏锋只在验灵与外门大比两处承担主要爽点；登山、罚工、雪地受伤都是真正的能力不足，帮助来自不同女性角色，但最后一步由主角自己完成。每个选项在下一幕除即时提示外，还必须兑现 2–4 段专属后续，不能只改一个数值。
+新版采用“50% 当下行动 + 20% 谜案推进 + 20% 关系递进 + 10% 藏锋兑现”的大致配比。藏锋只在验灵与外门大比两处承担主要爽点；登山、罚工、雪地受伤都是真实能力不足。每个选项在下一幕除即时提示外，还必须兑现 2–4 段专属后续，并打开一个可指认的小悬念。
 
 女主不靠连续堆叠五官形容词。每人固定一个视觉/动作标签、一种说话方式、一项独立目标和一种帮助主角成长的能力。前半程每幕只引入或突出一人，直到终局前才让四人同场。
 
@@ -33,6 +33,32 @@
 - 《仙逆》：小人物的情绪底座来自父母、贫穷、失败和具体生活物件。能力型女性通过炼丹、阵法、求生与长期协作建立分量；价值感悟从一次失败、偿还和照顾里生出来，而不是作者单独写一段大道理。
 
 落地原则：每位女主固定 2–3 个可反复辨认的记号，每次出场至少完成“推动事件、暴露目标、改变关系”中的一项；每条亲密描写必须同时承担疗伤、破阵、谈判或人物边界等剧情功能。
+
+## 第二轮诊断：问题不是“第三人称”，而是旁白越权
+
+现稿逐句扫描发现 15 处“真正”、20 处“第一次”、15 处“不是……是……”以及多处“你忽然明白/知道”。这些句子大多发生在动作已经完成之后，由叙述者替主角和读者概括意义。它们造成三种损耗：镜头离开身体与现场；读者失去自行判断的空白；节点结束在结论而非新问题上。
+
+本地三部文本的对照也说明，沉浸不取决于语法上的第一或第三人称。《大主宰》《遮天》《仙逆》都大量使用第三人称，但早期高吸引力段落通常稳定跟随主角当前所见、身体反应、目标和信息边界；章末则停在新敌人、异常人数、枯萎药草、未知地点、即将开始的比试等具体变化上，而不是对人物品格作判词。
+
+读者论坛对“是否代入主角”存在明确分歧：有人直接代入，有人始终旁观。因此不能把“统一第二人称”当作沉浸的充分条件；更稳妥的目标是让读者始终拥有主角当下最重要的信息，并避免作者替读者解释感受。这一论坛讨论只作偏好分歧证据。[PTT：读者是否代入主角](https://www.ptt.cc/bbs/CFantasy/M.1744617903.A.82C.html)
+
+叙事视角研究同样区分“人称”与“焦点”：第一、第三人称都能呈现内部感知；识别感来自空间位置、感官、身体反应、目标和行动等视角线索。研究还总结了一项值得直接用于本稿的实验发现：在第一人称叙事里，显式解释角色信念与态度可能压缩读者自行推断空间，反而降低角色的可理解/透明体验。[Evoking and Measuring Identification with Narrative Characters](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2017.01190/full)
+
+落地规则：
+
+- 正文统一为贴身第二人称；除公共可见反应外，不进入其他角色内心
+- 句序采用“刺激/异常 → 身体或感官 → 当下动作 → 最少量判断”，删除动作后的道德判词
+- 禁止把“真正、从来、这说明、你忽然明白、不是……而是……”当作节点收束句
+- 每幕只保留一个主悬念，并以证物、倒计时、威胁、误会或新事实收尾
+- 父亲谜案从“找到遗物即确认死亡”改为逐级翻面：锈剑月牙 → 黑石谷阵灰 → 被改名册 → 三个月前仍在领药 → 阵底敲门声 → 第十二口石棺里父亲睁眼
+
+### 小谜团和悬念的具体用法
+
+Gerrig 等人的实验把“小谜团”定义为文本提出但未立即回答、同时读者有理由期待答案的问题；未解决人物在读者表征中保持更高可及性，但无关信息若拖得太久也会干扰后续处理。[Waiting for Brandon](https://pubmed.ncbi.nlm.nih.gov/20046984/)
+
+因此新版不堆十个谜。每个节点只把父亲谜案向前推进一格，同时打开一个近期会回答的问题。悬念也不只靠“不知道”：相关研究区分对过去缺口的好奇和对未来结果的期待，已知危险仍可产生悬念。[Confronting a Paradox: The Impact of Uncertainty in Suspense](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01392/full)
+
+场景检查式：进入本幕时玩家想知道什么；本幕具体回答了哪一部分；离开时又新增了哪一个更近、更危险的问题。若三项答不出来，该幕不应保留。
 
 ## 证据与落地
 
@@ -116,6 +142,9 @@ OpenGameArt 原始条目将 Le Mandrill 的 `Village In The Air` 标注为 RPG /
 | 情境差异增强选择能动感 | 88 人互动故事实验 | 中高 | 样本和题材有限 | 用即时后果和关系差异体现选择 |
 | 感悟由人物处境与选择触发更合适 | 文学阅读研究 + 书友反例 | 中 | 研究不直接比较“说教段落”与“事件表达” | 只保留事件后的短反思，不写总结式训话 |
 | 本地三部作品的女主手法可泛化 | 用户提供完整文本的结构抽样 | 中 | 不是读者实验，也不能外推为唯一正确写法 | 仅提炼识别点、行动、反差和共同经历，不复制文本 |
+| 沉浸主要取决于内部焦点而非单纯人称 | 视角/识别研究 + 读者分歧样本 | 中高 | 实验材料不是中文互动网文 | 采用贴身第二人称，但把感官、目标和信息边界作为真正验收项 |
+| 显式解释人物态度可能压缩推断空间 | 角色透明度实验综述 | 中 | 效果随人称和文本而异 | 删除高潮后的品格判词，让动作承担意义 |
+| 小谜团能保持信息可及性 | 4 组文本处理实验 | 高（对记忆可及性） | 不等于谜团越多越好；拖延会干扰新信息 | 每幕只开一个近期可回答的缺口，并持续推进父亲主谜 |
 | 音乐可合法本地分发 | 原始素材页 + CC0 官方说明 | 高 | CC 不替具体作品做权利担保 | 保留来源、许可和本地素材记录 |
 
 ## 停止条件与验证
@@ -139,6 +168,10 @@ OpenGameArt 原始条目将 Le Mandrill 的 `Village In The Air` 标注为 RPG /
 - W3C WAI. “Understanding Success Criterion 1.4.8.” https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation
 - Cardona-Rivera, R., et al. “Foreseeing Meaningful Choices.” AIIDE, 2014. https://doi.org/10.1609/aiide.v10i1.12716
 - Sopcak, P., Kuiken, D., & Douglas, S. “Existential reflection and morality.” Frontiers in Communication, 2022. https://doi.org/10.3389/fcomm.2022.991774
+- Van Krieken, K., Hoeken, H., & Sanders, J. “Evoking and Measuring Identification with Narrative Characters – A Linguistic Cues Framework.” Frontiers in Psychology, 2017. https://doi.org/10.3389/fpsyg.2017.01190
+- Gerrig, R. J., Love, J., & McKoon, G. “Waiting for Brandon: How Readers Respond to Small Mysteries.” Journal of Memory and Language, 2009. https://doi.org/10.1016/j.jml.2008.08.004
+- Delatorre, P., León, C., Salguero, A., Palomo-Duarte, M., & Gervás, P. “Confronting a Paradox: A New Perspective of the Impact of Uncertainty in Suspense.” Frontiers in Psychology, 2018. https://doi.org/10.3389/fpsyg.2018.01392
+- PTT CFantasy. “大部分人看书都是直接代入主角吗？” 2025-04-14. https://www.ptt.cc/bbs/CFantasy/M.1744617903.A.82C.html
 - 用户提供本地文本：《大主宰.txt》《遮天 作者：辰东.txt》《仙逆.txt》，访问于 2026-09-02；仅作结构与手法分析，未在产品中复制段落。
 - Le Mandrill. “Île Flotante / Village In The Air.” OpenGameArt, 2018-02-11. https://opengameart.org/content/%C3%AEle-flotante-village-in-the-air
 - Creative Commons. “CC0 1.0 Universal.” https://creativecommons.org/publicdomain/zero/1.0/
