@@ -17,8 +17,10 @@ const [html, script, style] = await Promise.all([
 ]);
 
 const inlineHtml = html
-  .replace(/\s*<script type="module"[^>]*src="[^"]+"><\/script>/, `\n    <script type="module">${script}</script>`)
-  .replace(/\s*<link rel="stylesheet"[^>]*>/, `\n    <style>${style}</style>`);
+  // Replacement functions keep `$&`, `$\`` and similar sequences inside
+  // minified bundles from being interpreted as String.replace tokens.
+  .replace(/\s*<script type="module"[^>]*src="[^"]+"><\/script>/, () => `\n    <script type="module">${script}</script>`)
+  .replace(/\s*<link rel="stylesheet"[^>]*>/, () => `\n    <style>${style}</style>`);
 
 await mkdir(inlineDir, { recursive: true });
 await writeFile(join(inlineDir, 'index.html'), inlineHtml, 'utf8');
